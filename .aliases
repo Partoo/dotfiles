@@ -7,18 +7,23 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
+alias d="cd ~/文档"
+alias dl="cd ~/下载"
+alias dt="cd ~/桌面"
 alias p="cd ~/Projects"
+alias www="/var/www"
 alias g="git"
 alias h="history"
 alias j="jobs"
 alias v="vim"
-alias m="mate ."
 alias s="subl ."
 alias o="open"
 alias oo="open ."
+alias agi="sudo apt-get install"
+alias agu="sudo apt-get update"
+alias agg="sudo apt-get upgrade"
+alias gs="grunt server"
+alias ag="sudo apt-get"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
