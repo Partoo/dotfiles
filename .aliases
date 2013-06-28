@@ -8,15 +8,15 @@ alias -- -="cd -"
 
 # Shortcuts
 alias d="cd ~/文档"
-alias dl="cd ~/下载"
+alias dl="cd ~/down"
 alias dt="cd ~/桌面"
-alias p="cd ~/Projects"
+alias p="cd ~/Project"
 alias www="/var/www"
 alias g="git"
 alias h="history"
 alias j="jobs"
 alias v="vim"
-alias s="subl ."
+alias s="sublime ."
 alias o="open"
 alias oo="open ."
 alias agi="sudo apt-get install"
@@ -27,6 +27,8 @@ alias ag="sudo apt-get"
 alias y="yo webapp"
 alias nii="npm install && bower install"
 alias x="sudo rm -rf *"
+alias ho="export http_proxy="http://127.0.0.1:8087""
+alias hos="export https_proxy="http://127.0.0.1:8087""
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
